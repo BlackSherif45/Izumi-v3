@@ -30,7 +30,7 @@ izumi({
 
         let msg = `\n╭━━━〔 ${config.BOT_NAME} 〕━━━┈
 ╭──────────────
-❖ │  *OWNER*: ${config.OWNER_NAME}
+❖ │  *Muridzi*: ${config.OWNER_NAME}
 ❖ │  *MODE*: ${config.MODE}
 ❖ │  *DATE*: ${formattedDate}
 ❖ │  *TIME*: ${formattedTime}
@@ -58,14 +58,14 @@ izumi({
                             mimetype: "image/jpeg",
                             jpegThumbnail: Buffer.alloc(0)
                         },
-                        title: "Command List",
+                        title: " Milton Command List",
                         description: "List of available commands",
                         currencyCode: "USD",
                         priceAmount1000: "100000000000000",
                         retailerId: "Eypz",
                         productImageCount: 1
                     },
-                    businessOwnerJid: "917994489493@s.whatsapp.net"
+                    businessOwnerJid: "263715907468@s.whatsapp.net"
                 }
             }
         };
@@ -77,7 +77,7 @@ izumi({
                 externalAdReply: {
                     title: config.BOT_NAME,
                     body: config.OWNER_NAME,
-                    sourceUrl: "https://github.com/sataniceypz/Izumi-v3",
+                    sourceUrl: "https://github.com/BlackSherif45/Izumi-v3",
                     mediaUrl: "https://instagram.com",
                     mediaType: 1,
                     showAdAttribution: true,
