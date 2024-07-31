@@ -35,7 +35,7 @@ izumi({
 ❖ │  *DATE*: ${formattedDate}
 ❖ │  *TIME*: ${formattedTime}
 ╰──────────────
-╰━━━━━━━━━━━━━━━┈\n\n`;
+╰━• `This Bot was created by Milton` •━━━━━━━━━━━━━━┈\n\n`;
 
         commands.forEach(command => {
             if (!command.dontAddCommandList && command.pattern) {
@@ -77,7 +77,7 @@ izumi({
                 externalAdReply: {
                     title: config.BOT_NAME,
                     body: config.OWNER_NAME,
-                    sourceUrl: "https://github.com/BlackSherif45/Izumi-v3",
+                    sourceUrl: "https://github.com/sataniceypz/Izumi-v3",
                     mediaUrl: "https://instagram.com",
                     mediaType: 1,
                     showAdAttribution: true,
